@@ -14,6 +14,12 @@ body {
 	box-shadow: -1px 1px 1px #800000;
 }
 
+.main-container2 {
+	background: url(../../assets/images/meet-bg.jpg) no-repeat center;
+	background-size: cover;
+	box-shadow: -1px 1px 1px #800000;
+}
+
 .overlay {
 	background: rgba(162,22,22,0.8);
 	width: 100%;
@@ -41,7 +47,7 @@ h6 {
 
 p {
 	font-family: 'Nanum Gothic', sans-serif;
-	font-size: 13.5px;
+	font-size: 14px;
 	line-height: 1.8;
 }
 
@@ -117,11 +123,16 @@ p {
 	background-color: #003636;
 	border: 0;
 	font-family: 'Nanum Gothic', sans-serif;
-	font-size: 18px; 
+	font-size: 16px; 
 }
 
 .footer-links {
 	list-style: none;
+}
+
+.footer-links li {
+	display: inline;
+	padding: 0 15px;
 }
 
 .footer-links a {
