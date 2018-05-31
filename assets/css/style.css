@@ -218,6 +218,32 @@ p {
 	color: rgba(81,0,0,0.6);
 }
 
+.img-style {
+	width: 100%;
+	height: auto;
+	background-color :#666;
+	box-shadow: -1px 1px 1px #969685;
+}
+
+.group-img-style {
+	width: 100%;
+	height: auto;
+	background-color :#666;
+	box-shadow: -1px 1px 1px #969685;
+}
+
+.portrait-style {
+	height: auto;
+	width: 100%;
+	background-color :#666;
+	box-shadow: -1px 1px 1px #969685;
+}
+
+
+
+
+/*Start of media queries*/
+
 /*For xs up to sm breakpoint*/
 @media only screen and (max-width: 576px) and (min-width: 100px) {
 	p {
@@ -289,6 +315,57 @@ p {
 		margin-bottom: 1px;
 		border-bottom: 1px solid rgba(23,23,23,0);
 		opacity: 0.8;
+	}
+}
+
+/*For xs*/
+@media only screen and (max-width: 575px) and (min-width: 100px) {
+	.img-style {
+	width: 100%;
+	height: auto;
+	background-color :#666;
+	box-shadow: -1px 1px 1px #969685;
+	}
+
+}
+
+/*for sm*/
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+	.img-style {
+	width: 350px;
+	height: auto;
+	background-color :#666;
+	box-shadow: -1px 1px 1px #969685;
+	}
+
+	.group-img-style {
+	width: 10px;
+	height: auto;
+	}
+
+}
+
+@media only screen and (max-width: 767px) and (min-width: 100px) {
+	.margin-botton-xs-sm {
+		margin-bottom: 30px;
+	}
+
+	.portrait-style {
+		width: 45%;
+		height: auto;
+		background-color :#666;
+		box-shadow: -1px 1px 1px #969685;
+	}
+}
+
+
+/*MD breakpoint*/
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	.portrait-style {
+		width: 45%;
+		height: auto;
+		background-color :#666;
+		box-shadow: -1px 1px 1px #969685;
 	}
 }
 
