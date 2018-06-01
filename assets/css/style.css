@@ -142,7 +142,7 @@ p {
 }
 
 .button-bg {
-	background-color: #003636;
+	background-color: #094E4E;
 	border: 0;
 	font-family: 'Nanum Gothic', sans-serif;
 	font-size: 16px; 
@@ -232,9 +232,18 @@ p {
 	box-shadow: -1px 1px 1px #969685;
 }
 
-.portrait-style {
+.portrait-style { /*for meet page*/
 	height: auto;
 	width: 100%;
+	background-color :#666;
+	box-shadow: -1px 1px 1px #969685;
+}
+
+.portrait-style2 { /*for bio page*/
+	display: inline;
+	float: left;
+	width: 46%;
+	height: auto;
 	background-color :#666;
 	box-shadow: -1px 1px 1px #969685;
 }
@@ -327,6 +336,16 @@ p {
 	box-shadow: -1px 1px 1px #969685;
 	}
 
+	.portrait-style2 { /*for bio page*/
+		display: inline;
+		float: left;
+		width: 100%;
+		height: auto;
+		background-color :#666;
+		box-shadow: -1px 1px 1px #969685;
+		margin-bottom: 30px;
+	}
+
 }
 
 /*for sm*/
@@ -341,6 +360,15 @@ p {
 	.group-img-style {
 	width: 10px;
 	height: auto;
+	}
+
+	.portrait-style2 { /*for bio page*/
+		display: inline;
+		float: left;
+		width: 45%;
+		height: auto;
+		background-color :#666;
+		box-shadow: -1px 1px 1px #969685;
 	}
 
 }
@@ -367,5 +395,20 @@ p {
 		background-color :#666;
 		box-shadow: -1px 1px 1px #969685;
 	}
+
+	.portrait-style2 { /*for bio page*/
+		display: inline;
+		float: left;
+		width: 42%;
+		height: auto;
+		background-color :#666;
+		box-shadow: -1px 1px 1px #969685;
+	}
 }
 
+
+@media only screen and (max-width: 320px) and (min-width: 100px) {
+	.smaller {
+	font-size: 25px;
+	}
+}
